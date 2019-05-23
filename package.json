@@ -31,6 +31,7 @@
   "dependencies": {
     "is-docker": "^2.0.0",
     "moment": "^2.24.0",
-    "puppeteer": "^1.16.0"
+    "puppeteer": "^1.16.0",
+    "winston": "^3.2.1"
   }
 }
