@@ -13,6 +13,7 @@ const { success, message } = await registerForCourse(
   { // data object
     firstname: 'max',
     surname: 'musterman',
+    gender: 'male',
     street: 'moo street 13',
     city: '12345 city',
     matrnr: '123456',
