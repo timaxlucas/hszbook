@@ -5,6 +5,8 @@
  
 
 ```javascript
+const { registerForCourse } = require('hszbook');
+
 const { success, message } = await registerForCourse(
   'https://buchung.hsz.rwth-aachen.de/angebote/Sommersemester_2019/_Volleyball_Spielbetrieb.html',
   '11259871', // course id
