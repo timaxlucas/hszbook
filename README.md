@@ -1,4 +1,5 @@
-# hszbook [![Build Status](https://travis-ci.com/timaxlucas/hszbook.svg?token=1w81GuSsC3hkfgp1JvDQ&branch=master)](https://travis-ci.com/timaxlucas/hszbook)
+# hszbook 
+[![Build Status](https://travis-ci.com/timaxlucas/hszbook.svg?token=1w81GuSsC3hkfgp1JvDQ&branch=master)](https://travis-ci.com/timaxlucas/hszbook) ![npm](https://img.shields.io/npm/v/hszbook.svg)
 
  Automaticly register for RWTH-Aachen sport courses
  
