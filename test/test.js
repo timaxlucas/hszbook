@@ -28,7 +28,7 @@ describe('registerForCourse', () => {
     const url = 'https://buchung.hsz.rwth-aachen.de/angebote/Sommersemester_2019/_Basketball_Spielbetrieb.html';
     const kid = '13131823';
 
-    const { success, message } = await registerForCourse(url, kid, data, true, {debug: true});
+    const { success, message } = await registerForCourse(url, kid, data, true, {debug: false});
     console.log(success, message);
     expect(success).toBe(true);
   }, 60 * 1000);
