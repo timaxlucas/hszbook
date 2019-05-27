@@ -1,12 +1,12 @@
 const { getData, registerForCourse } = require('../');
 
-/*
+
 test('getData', async() => {
   expect.assertions(1);
 
   const res = await getData('https://buchung.hsz.rwth-aachen.de/angebote/Sommersemester_2019/_Volleyball_Spielbetrieb.html');
   expect(Array.isArray(res)).toBe(true);
-});*/
+});
 
 
 describe('registerForCourse', () => {
