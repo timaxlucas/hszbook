@@ -23,3 +23,6 @@ const { success, message } = await registerForCourse(
   }
 );
 ```
+
+## License
+MIT @ Maximilian Lucas
