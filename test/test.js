@@ -23,10 +23,10 @@ describe('registerForCourse', () => {
       matrnr: '123456',
       email: 'asd.fgh@rwth-aachen.de',
       phone: '0123456789',
-      iban: 'DE12 3456 7891 0123 4567 89'
+      iban: 'DE12500105170648489890'
     };
     const url = 'https://buchung.hsz.rwth-aachen.de/angebote/Sommersemester_2019/_Basketball_Spielbetrieb.html';
-    const kid = '13131823';
+    const kid = '13132858';
 
     const { success, message } = await registerForCourse(url, kid, data, true, {debug: false});
     console.log(success, message);
@@ -38,7 +38,7 @@ describe('registerForCourse', () => {
 
     const data = {};
     const url = 'https://buchung.hsz.rwth-aachen.de/angebote/Sommersemester_2019/_Basketball_Spielbetrieb.html';
-    const kid = '13131823';
+    const kid = '13132858';
     try {
       await registerForCourse(url, kid, data, true, {debug: false});
     } catch (e) {
@@ -61,7 +61,7 @@ describe('registerForCourse', () => {
       iban: 'DE12 3456 7891 0123 4567 89'
     };
     const url = 'https://buchung.hsz.rwth-aachen.de/angebote/Sommersemester_2019/_Basketball_Spielbetrieb.html';
-    const kid = '13131823';
+    const kid = '13132858';
 
     const { success, message } = await registerForCourse(url, kid, data, true, {debug: false});
     expect(success).toBe(false);
