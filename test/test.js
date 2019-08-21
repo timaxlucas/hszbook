@@ -25,8 +25,8 @@ describe('registerForCourse', () => {
       phone: '0123456789',
       iban: 'DE12500105170648489890'
     };
-    const url = 'https://buchung.hsz.rwth-aachen.de/angebote/Sommersemester_2019/_Basketball_Spielbetrieb.html';
-    const kid = '13132858';
+    const url = 'https://buchung.hsz.rwth-aachen.de/angebote/Sommersemester_2019/_Volleyball_Spielbetrieb.html';
+    const kid = '11532936';
 
     const { success, message } = await registerForCourse(url, kid, data, true, {debug: false});
     console.log(success, message);
@@ -37,8 +37,8 @@ describe('registerForCourse', () => {
     expect.assertions(1);
 
     const data = {};
-    const url = 'https://buchung.hsz.rwth-aachen.de/angebote/Sommersemester_2019/_Basketball_Spielbetrieb.html';
-    const kid = '13132858';
+    const url = 'https://buchung.hsz.rwth-aachen.de/angebote/Sommersemester_2019/_Volleyball_Spielbetrieb.html';
+    const kid = '11532936';
     try {
       await registerForCourse(url, kid, data, true, {debug: false});
     } catch (e) {
@@ -60,8 +60,8 @@ describe('registerForCourse', () => {
       phone: '0123456789',
       iban: 'DE12 3456 7891 0123 4567 89'
     };
-    const url = 'https://buchung.hsz.rwth-aachen.de/angebote/Sommersemester_2019/_Basketball_Spielbetrieb.html';
-    const kid = '13132858';
+    const url = 'https://buchung.hsz.rwth-aachen.de/angebote/Sommersemester_2019/_Volleyball_Spielbetrieb.html';
+    const kid = '11532936';
 
     const { success, message } = await registerForCourse(url, kid, data, true, {debug: false});
     expect(success).toBe(false);
