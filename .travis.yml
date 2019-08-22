@@ -4,6 +4,8 @@ node_js:
 cache:
   directories:
     - node_modules
+services:
+    - xvfb
 # allow headful tests
 before_install:
   # Enable user namespace cloning
